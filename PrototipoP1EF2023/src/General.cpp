@@ -1,11 +1,13 @@
 #include "General.h"
 #include "Bitacora.h"
 #include "Usuario.h"
+#include "Cliente.h"
 #include <iostream>
 #include <iomanip>
 using namespace std;
 Bitacora llamarBitacora2;
 Usuario ingresoUsuario;
+Cliente consulta;
 
 void General::menuGeneral(string n)
 {
@@ -88,6 +90,7 @@ void General::catalogos()
 void General::procesos()
 {
     int choice;
+    char x;
     do {
 	system("cls");
 	cout << "\n\t\t\t Usuario: " << nombre << "\n\n";
@@ -106,7 +109,13 @@ void General::procesos()
         switch(choice)
         {
             case 1:
-                llamarBitacora2.ingresoBitacora(nombre, "1000","INS");
+                do
+                {
+                    llamarBitacora2.ingresoBitacora(nombre,"1000", "INS");
+                    //consulta.insertar();
+                    cout<<"\n\t\t\t Agregar otra compra(Y,N): ";
+                    cin>>x;
+                }while(x=='y'||x=='Y');
                 break;
             case 2:
                 llamarBitacora2.ingresoBitacora(nombre,"1000", "REA");
@@ -151,6 +160,7 @@ void General::informes()
                 break;
             case 3:
                 llamarBitacora2.ingresoBitacora(nombre,"1100", "REA");
+                //consulta.desplegar();
                 break;
             case 4:
                 return;
