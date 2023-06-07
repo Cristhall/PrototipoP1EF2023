@@ -1,0 +1,71 @@
+commit 007490bf8d8b15af1fc932aebc53832a3657efca
+Author: Cristhall Rodríguez <cristhall3004@gmail.com>
+Date:   Wed Jun 7 12:10:20 2023 -0600
+
+    Agregando Archivos creados en video
+
+commit 2e32747ecc934d30b01605951a61a3550b8db7e2
+Author: Cristhall Rodríguez <cristhall3004@gmail.com>
+Date:   Wed Jun 7 11:50:14 2023 -0600
+
+    Corrigiendo errores de impresion
+
+commit cff16299026f018fe1243a5ddc1cca4f1d4ed8dd
+Author: Cristhall Rodríguez <cristhall3004@gmail.com>
+Date:   Wed Jun 7 11:43:31 2023 -0600
+
+    Agrenado correcciones en impresion
+
+commit bbeb847feaa4f7d120613b2b9edacf1380980b3a
+Author: Cristhall Rodríguez <cristhall3004@gmail.com>
+Date:   Wed Jun 7 11:31:30 2023 -0600
+
+    Agregando pequeñas correcciones
+
+commit 0d73cf57c11dd4cdba1fd63a2dc553f8758f5e9a
+Author: Cristhall Rodríguez <cristhall3004@gmail.com>
+Date:   Wed Jun 7 11:20:41 2023 -0600
+
+    Agregando correcciones en numeracion de aplicaciones
+
+commit c15061063c8b530e88e27373cf710125d65a00e0
+Author: Cristhall Rodríguez <cristhall3004@gmail.com>
+Date:   Wed Jun 7 11:12:17 2023 -0600
+
+    Agregando llamadas para reportes
+
+commit 66e71aa11828fec57cb21e1b7afb9dd62ab69b53
+Author: Cristhall Rodríguez <cristhall3004@gmail.com>
+Date:   Wed Jun 7 11:08:57 2023 -0600
+
+    Agregando Funcion para la venta de boletos
+
+commit d63f8a18985805eef8f6d9e42825c5c88b51e300
+Author: Cristhall Rodríguez <cristhall3004@gmail.com>
+Date:   Wed Jun 7 11:07:01 2023 -0600
+
+    Agregando Funciones del CRUD de clientes
+
+commit eac71b9342766ba3b813a579f7671eca3db18994
+Author: Cristhall Rodríguez <cristhall3004@gmail.com>
+Date:   Wed Jun 7 10:33:17 2023 -0600
+
+    Agregando Menu General y SubMenus
+
+commit b64cd080148838981517c6ec2c26098982e99e63
+Author: Cristhall Rodríguez <cristhall3004@gmail.com>
+Date:   Wed Jun 7 09:45:19 2023 -0600
+
+    Agregando Autenticacion y CRUD usuarios
+
+commit c7c484ec062a8a419a6667e6d83971b84f93b82a
+Author: Cristhall Rodríguez <cristhall3004@gmail.com>
+Date:   Wed Jun 7 09:37:37 2023 -0600
+
+    Iniciado Proyecto Final
+
+commit c6e7eaa899c083349e6db52c35dd3d68324fb565
+Author: Cristhall <123000335+Cristhall@users.noreply.github.com>
+Date:   Wed Jun 7 09:23:22 2023 -0600
+
+    Initial commit
