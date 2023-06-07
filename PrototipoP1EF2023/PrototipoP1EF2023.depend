@@ -39,7 +39,7 @@
 1686155625 c:\users\cristhall\onedrive\escritorio\universidad\tercer semestre\programación_i\prototipop1ef2023\prototipop1ef2023\include\general.h
 	<iostream>
 
-1686157572 source:c:\users\cristhall\onedrive\escritorio\universidad\tercer semestre\programación_i\prototipop1ef2023\prototipop1ef2023\src\cliente.cpp
+1686157755 source:c:\users\cristhall\onedrive\escritorio\universidad\tercer semestre\programación_i\prototipop1ef2023\prototipop1ef2023\src\cliente.cpp
 	"Cliente.h"
 	"Bitacora.h"
 	<iostream>
@@ -47,6 +47,6 @@
 	<fstream>
 	<iomanip>
 
-1686157389 c:\users\cristhall\onedrive\escritorio\universidad\tercer semestre\programación_i\prototipop1ef2023\prototipop1ef2023\include\cliente.h
+1686157643 c:\users\cristhall\onedrive\escritorio\universidad\tercer semestre\programación_i\prototipop1ef2023\prototipop1ef2023\include\cliente.h
 	<iostream>
 
