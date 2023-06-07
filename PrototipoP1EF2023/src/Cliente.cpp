@@ -15,9 +15,9 @@ void Cliente::menu(string n)
     {
 	system("cls");
     cout << "\n\t\t\t Usuario: " << nombre2 << "\n\n";
-	cout<<"\t\t\t--------------------------------------------------------"<<endl;
+	cout<<"\t\t\t---------------------------"<<endl;
 	cout<<"\t\t\t |   CRUD CLIENTE - 1200  |"<<endl;
-	cout<<"\t\t\t--------------------------------------------------------"<<endl;
+	cout<<"\t\t\t---------------------------"<<endl;
 	cout<<"\t\t\t 1. Despliegue Cliente"<<endl;
 	cout<<"\t\t\t 2. Modificar aplicacion"<<endl;
 	cout<<"\t\t\t 3. Buscar aplicacion"<<endl;

@@ -60,7 +60,7 @@ void General::catalogos()
 	system("cls");
 	cout << "\n\t\t\t Usuario: " << nombre << "\n\n";
 	cout<<"\t\t\t----------------------"<<endl;
-	cout<<"\t\t\t |   CATALOGOS - 900 |"<<endl;
+	cout<<"\t\t\t |   CATALOGOS - 800 |"<<endl;
 	cout<<"\t\t\t----------------------"<<endl;
 	cout<<"\t\t\t 1. Usuarios "<<endl;
 	cout<<"\t\t\t 2. Clientes "<<endl; //No existe el ingreso, eso se hace en el área de procesos.
@@ -95,7 +95,7 @@ void General::procesos()
 	system("cls");
 	cout << "\n\t\t\t Usuario: " << nombre << "\n\n";
 	cout<<"\t\t\t------------------------"<<endl;
-	cout<<"\t\t\t |   PROCESOS  -  1000 |"<<endl;
+	cout<<"\t\t\t |   PROCESOS  -  900  |"<<endl;
 	cout<<"\t\t\t------------------------"<<endl;
 	cout<<"\t\t\t 1. Venta de Boletos "<<endl;
 	cout<<"\t\t\t 2. Bitacora "<<endl;
@@ -111,14 +111,14 @@ void General::procesos()
             case 1:
                 do
                 {
-                    llamarBitacora2.ingresoBitacora(nombre,"1000", "INS");
+                    llamarBitacora2.ingresoBitacora(nombre,"900", "INS");
                     consulta.insertar();
                     cout<<"\n\t\t\t Agregar otra compra(Y,N): ";
                     cin>>x;
                 }while(x=='y'||x=='Y');
                 break;
             case 2:
-                llamarBitacora2.ingresoBitacora(nombre,"1000", "REA");
+                llamarBitacora2.ingresoBitacora(nombre,"900", "REA");
                 llamarBitacora2.visualizarBitacora(nombre);
                 break;
             case 3:
@@ -136,7 +136,7 @@ void General::informes()
 	system("cls");
 	cout << "\n\t\t\t Usuario: " << nombre << "\n\n";
 	cout<<"\t\t\t------------------------"<<endl;
-	cout<<"\t\t\t |   INFORMES  -  1100 |"<<endl;
+	cout<<"\t\t\t |   INFORMES  -  1000 |"<<endl;
 	cout<<"\t\t\t------------------------"<<endl;
 	cout<<"\t\t\t 1. Bitacora "<<endl;
 	cout<<"\t\t\t 2. Usuarios "<<endl;
@@ -151,15 +151,15 @@ void General::informes()
         switch(choice)
         {
             case 1:
-                llamarBitacora2.ingresoBitacora(nombre,"1100", "REA");
+                llamarBitacora2.ingresoBitacora(nombre,"1000", "REA");
                 llamarBitacora2.visualizarBitacora(nombre);
                 break;
             case 2:
-                llamarBitacora2.ingresoBitacora(nombre,"1100", "REA");
+                llamarBitacora2.ingresoBitacora(nombre,"1000", "REA");
                 ingresoUsuario.desplegar();
                 break;
             case 3:
-                llamarBitacora2.ingresoBitacora(nombre,"1100", "REA");
+                llamarBitacora2.ingresoBitacora(nombre,"1000", "REA");
                 consulta.desplegar();
                 break;
             case 4:

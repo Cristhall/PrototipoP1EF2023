@@ -1,5 +1,6 @@
 #include "Usuario.h"
 #include "Bitacora.h"
+#include "General.h"
 #include<iostream>
 #include<fstream>
 #include<stdlib.h>
@@ -13,6 +14,7 @@ using namespace std;
 #define CONTRAADMON "1234"
 string nameUsuario, codigo;
 Bitacora llamarBitacora;
+General llamarMenu;
 void Usuario::iniciarSesion()
 {
     system("cls");
@@ -31,6 +33,7 @@ void Usuario::iniciarSesion()
         if(nameUsuario==nombre && codigo == contrasena)
         {
             llamarBitacora.ingresoBitacora(nameUsuario,"700", "LOGIN");
+            llamarMenu.menuGeneral(nameUsuario);
             return;
             found++;
         }
@@ -39,6 +42,7 @@ void Usuario::iniciarSesion()
             if (nameUsuario==ADMINISTRADOR && codigo==CONTRAADMON)
             {
                 llamarBitacora.ingresoBitacora(nameUsuario,"700", "LOGIN");
+                llamarMenu.menuGeneral(nameUsuario);
                 return;
                 found++;
             }
@@ -61,9 +65,9 @@ void Usuario::menuSecundario()
     {
 	system("cls");
 	cout << "\n\t\t\t Usuario: " << nameUsuario << "\n\n";
-	cout<<"\t\t\t------------------------------"<<endl;
-	cout<<"\t\t\t |   CATALOGO USUARIOS - 800 |"<<endl;
-	cout<<"\t\t\t------------------------------"<<endl;
+	cout<<"\t\t\t-------------------------------"<<endl;
+	cout<<"\t\t\t |   CATALOGO USUARIOS - 1100 |"<<endl;
+	cout<<"\t\t\t-------------------------------"<<endl;
 	cout<<"\t\t\t 1. Insertar Usuario"<<endl;
 	cout<<"\t\t\t 2. Modificar Usuario"<<endl;
 	cout<<"\t\t\t 3. Buscar Usuario"<<endl;
@@ -80,26 +84,26 @@ void Usuario::menuSecundario()
         case 1:
             do
             {
-                llamarBitacora.ingresoBitacora(nameUsuario,"800", "INS");
+                llamarBitacora.ingresoBitacora(nameUsuario,"1100", "INS");
                 insertar();
                 cout<<"\n\t\t\t Agrega otra persona(Y,N): ";
                 cin>>x;
             }while(x=='y'||x=='Y');
             break;
         case 2:
-            llamarBitacora.ingresoBitacora(nameUsuario,"800", "UPD");
+            llamarBitacora.ingresoBitacora(nameUsuario,"1100", "UPD");
             modificar();
             break;
         case 3:
-            llamarBitacora.ingresoBitacora(nameUsuario,"800", "SER");
+            llamarBitacora.ingresoBitacora(nameUsuario,"1100", "SER");
             buscar();
             break;
         case 4:
-            llamarBitacora.ingresoBitacora(nameUsuario,"800", "REA");
+            llamarBitacora.ingresoBitacora(nameUsuario,"1100", "REA");
             desplegar();
             break;
         case 5:
-            llamarBitacora.ingresoBitacora(nameUsuario,"800", "DEL");
+            llamarBitacora.ingresoBitacora(nameUsuario,"1100", "DEL");
             borrar();
             break;
         case 6:

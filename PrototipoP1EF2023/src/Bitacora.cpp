@@ -24,7 +24,7 @@ void Bitacora::visualizarBitacora(string n)
 	fstream file;
 	string texto;
 	int total=0;
-	cout<<"\n-------------------------Tabla de Detalles de Bitacora - 1800 -------------------------"<<endl;
+	cout<<"\n-------------------------Tabla de Detalles de Bitacora -------------------------"<<endl;
 	file.open("Bitacora.txt",ios::in);
 	cout<<"\nNombre" <<setw(22)<< "Aplicacion" <<setw(12)<< "Accion" <<setw(20)<< "Fecha\n\n";
 	file >> nombre >> aplicacion >> accion >> date_time;

@@ -11,15 +11,14 @@ using namespace std;
 int main()
 {
     Usuario inicio;
-    inicio.iniciarSesion();
     int numero;
     do
     {
     system("cls");
-    cout<<"\t\t\t-------------------------------"<<endl;
+    cout<<"\n\t\t\t-------------------------------"<<endl;
 	cout<<"\t\t\t |   PROGRAMA EMPRESARIAL   |"<<endl;
 	cout<<"\t\t\t-------------------------------"<<endl;
-    cout<<"\n\n\t\t\t 1). Iniciar Sesion "<<endl;
+    cout<<"\t\t\t 1). Iniciar Sesion "<<endl;
 	cout<<"\t\t\t 2). Salir del Sistema"<<endl;
 	cout<<"\t\t\t-------------------------------"<<endl;
 	cout<< " "<<endl;
@@ -33,7 +32,6 @@ int main()
                 break;
             case 2:
                 break;
-
             default:
                 cout<<"\t\t\tIngrese opcion valida"<<endl;
                 cin.get();
