@@ -86,7 +86,7 @@ void Cliente::desplegar()
 	int total=0;
 	cout<<"\n-------------------------Tabla de Detalles del Cliente -------------------------"<<endl;
 	file.open("Clientes.txt",ios::in);
-	cout<<"\n\n\tId\tCliente\tEstado\n\n";
+	cout<<"\n\n\tBoleto\tNombre\tCartelera\tCantidad\tCompra\tReserva\n\n";
 	if(!file)
 	{
 		cout<<"\n\t\t\tNo hay información...";
@@ -107,6 +107,7 @@ void Cliente::desplegar()
 		}
 	}
 	file.close();
+	system("pause");
 }
 void Cliente::modificar()
 {
@@ -241,6 +242,7 @@ void Cliente::borrar()
 		remove("Clientes.txt");
 		rename("Record.txt","Clientes.txt");
 	}
+	system("pause");
 }
 
 

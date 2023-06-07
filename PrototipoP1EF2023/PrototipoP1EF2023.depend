@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1686158146 source:c:\users\cristhall\onedrive\escritorio\universidad\tercer semestre\programación_i\prototipop1ef2023\prototipop1ef2023\src\usuario.cpp
+1686158869 source:c:\users\cristhall\onedrive\escritorio\universidad\tercer semestre\programación_i\prototipop1ef2023\prototipop1ef2023\src\usuario.cpp
 	"Usuario.h"
 	"Bitacora.h"
 	"General.h"
@@ -30,7 +30,7 @@
 1686152904 c:\users\cristhall\onedrive\escritorio\universidad\tercer semestre\programación_i\prototipop1ef2023\prototipop1ef2023\include\bitacora.h
 	<iostream>
 
-1686157892 source:c:\users\cristhall\onedrive\escritorio\universidad\tercer semestre\programación_i\prototipop1ef2023\prototipop1ef2023\src\general.cpp
+1686158962 source:c:\users\cristhall\onedrive\escritorio\universidad\tercer semestre\programación_i\prototipop1ef2023\prototipop1ef2023\src\general.cpp
 	"General.h"
 	"Bitacora.h"
 	"Usuario.h"
@@ -41,7 +41,7 @@
 1686155625 c:\users\cristhall\onedrive\escritorio\universidad\tercer semestre\programación_i\prototipop1ef2023\prototipop1ef2023\include\general.h
 	<iostream>
 
-1686157755 source:c:\users\cristhall\onedrive\escritorio\universidad\tercer semestre\programación_i\prototipop1ef2023\prototipop1ef2023\src\cliente.cpp
+1686158772 source:c:\users\cristhall\onedrive\escritorio\universidad\tercer semestre\programación_i\prototipop1ef2023\prototipop1ef2023\src\cliente.cpp
 	"Cliente.h"
 	"Bitacora.h"
 	<iostream>

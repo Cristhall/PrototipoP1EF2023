@@ -42,7 +42,7 @@ void General::menuGeneral(string n)
 	    procesos();
 		break;
 	case 3:
-	    //informes();
+	    informes();
 		break;
     case 4:
 		return;
@@ -77,7 +77,7 @@ void General::catalogos()
                 ingresoUsuario.menuSecundario();
                 break;
             case 2:
-
+                consulta.menu(nombre);
                 break;
             case 3:
                 break;

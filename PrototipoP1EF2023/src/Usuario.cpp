@@ -52,7 +52,7 @@ void Usuario::iniciarSesion()
     if(found==0)
     {
         llamarBitacora.ingresoBitacora(nameUsuario,"700", "NO LOGIN");
-        cout<<"\n\t\t\t El usuario o contraseña son incorrectos..." << endl;
+        cout<<"\n\t\t\t El usuario o contraseña sin incorrectos..." << endl;
         system("pause");
     }
     file.close();
