@@ -98,7 +98,7 @@ void Cliente::desplegar()
 		while(!file.eof())
 		{
 			total++;
-			cout<<"\t"<<boleto<<"\t"<<nombre<<"\t"<<cartelera<<"\t"<<cantidad<<"\t"<<compra<<"\t"<<reserva<<endl;
+			cout<<"\t"<<boleto<<"\t"<<nombre<<"\t"<<cartelera<<"\t\t"<<cantidad<<"\t\t"<<compra<<"\t"<<reserva<<endl;
 			file >> boleto >> nombre >> cartelera >> cantidad >> compra >> reserva;
 		}
 		if(total==0)

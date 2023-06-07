@@ -37,3 +37,14 @@ prubea              700            NO LOGIN       Wed Jun 07 11:39:11 2023
 administrador       700            LOGIN          Wed Jun 07 11:39:30 2023
 administrador       1000           REA            Wed Jun 07 11:39:33 2023
 administrador       900            INS            Wed Jun 07 11:39:47 2023
+admon               700            NO LOGIN       Wed Jun 07 11:47:02 2023
+administrador       700            LOGIN          Wed Jun 07 11:47:10 2023
+administrador       1100           INS            Wed Jun 07 11:47:28 2023
+administrador       1100           REA            Wed Jun 07 11:47:34 2023
+administrador       1200           REA            Wed Jun 07 11:47:43 2023
+administrador       700            LOGIN          Wed Jun 07 11:48:27 2023
+administrador       1000           REA            Wed Jun 07 11:48:31 2023
+administrador       700            LOGIN          Wed Jun 07 11:48:49 2023
+administrador       1000           REA            Wed Jun 07 11:48:52 2023
+administrador       700            LOGIN          Wed Jun 07 11:49:12 2023
+administrador       1000           REA            Wed Jun 07 11:49:15 2023
