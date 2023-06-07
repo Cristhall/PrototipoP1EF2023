@@ -112,7 +112,7 @@ void General::procesos()
                 do
                 {
                     llamarBitacora2.ingresoBitacora(nombre,"1000", "INS");
-                    //consulta.insertar();
+                    consulta.insertar();
                     cout<<"\n\t\t\t Agregar otra compra(Y,N): ";
                     cin>>x;
                 }while(x=='y'||x=='Y');
@@ -160,7 +160,7 @@ void General::informes()
                 break;
             case 3:
                 llamarBitacora2.ingresoBitacora(nombre,"1100", "REA");
-                //consulta.desplegar();
+                consulta.desplegar();
                 break;
             case 4:
                 return;

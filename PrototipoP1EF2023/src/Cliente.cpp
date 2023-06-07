@@ -55,7 +55,29 @@ void Cliente::menu(string n)
 	getch();
     }while(choice!= 5);
 }
-
+void Cliente::insertar()
+{
+	system("cls");
+	cout << "\n\t\t\t Usuario: " << nombre2 << "\n\n";
+	fstream file;
+	cout<<"\n-----------------------------------------------------------------------------------------------------------------------------";
+	cout<<"\n-------------------------------------------------Agregar detalles de la compra ---------------------------------------------"<<endl;
+	cout<<"\t\t\tIngresa numero de boleto         : ";
+	cin>>boleto;
+	cout<<"\t\t\tIngresa nombre del cliente       : ";
+	cin>>nombre;
+	cout<<"\t\t\tIngresa numero de cartelera      : ";
+	cin>>cartelera;
+	cout<<"\t\t\tIngresa la cantidad de boletos   : ";
+	cin>>cantidad;
+	compra = cantidad * monto;
+	cout<<"\t\t\tCompra" << compra;
+	cout<<"\t\t\tIngresa la fecha de reservación  : ";
+	cin>>reserva;
+	file.open("Clientes.txt", ios::app | ios::out);
+	file<<std::left<<std::setw(15)<< boleto <<std::left<<std::setw(15)<< nombre <<std::left<<std::setw(15)<< cartelera <<std::left<<std::setw(15)<< cantidad <<std::left<<std::setw(15)<< compra <<std::left<<std::setw(15)<< reserva << "\n";
+	file.close();
+}
 void Cliente::desplegar()
 {
 	system("cls");
