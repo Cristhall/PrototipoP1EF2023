@@ -71,7 +71,7 @@ void Cliente::insertar()
 	cout<<"\t\t\tIngresa la cantidad de boletos   : ";
 	cin>>cantidad;
 	compra = cantidad * monto;
-	cout<<"\t\t\tCompra" << compra;
+	cout<<"\t\t\tCompra: " << compra << endl;
 	cout<<"\t\t\tIngresa la fecha de reservación  : ";
 	cin>>reserva;
 	file.open("Clientes.txt", ios::app | ios::out);
@@ -137,7 +137,7 @@ void Cliente::modificar()
 			}
 			else
 			{
-				cout<<"\t\t\tNumero de Boleto: "<<boleto;
+				cout<<"\t\t\tNumero de Boleto: "<<boleto<<endl;
 				cout<<"\t\t\tIngrese Nombre del cliente: ";
 				cin>>nombre;
 				cout<<"\t\t\tIngrese la cartelera: ";
@@ -145,7 +145,7 @@ void Cliente::modificar()
 				cout<<"\t\t\tIngrese la cantidad: ";
 				cin>>cantidad;
 				compra = cantidad * monto;
-				cout<<"\t\t\tCompra: " << compra;
+				cout<<"\t\t\tCompra: " << compra<<endl;
 				cout<<"\t\t\tIngrese fecha de reservación: ";
 				cin>>reserva;
 				file1<<std::left<<std::setw(15)<< boleto <<std::left<<std::setw(15)<< nombre <<std::left<<std::setw(15)<< cartelera <<std::left<<std::setw(15)<< cantidad <<std::left<<std::setw(15)<< compra <<std::left<<std::setw(15)<< reserva << "\n";

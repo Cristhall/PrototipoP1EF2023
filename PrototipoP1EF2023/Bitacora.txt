@@ -27,3 +27,13 @@ administrador       1000           REA            Wed Jun 07 11:30:38 2023
 administrador       1000           REA            Wed Jun 07 11:30:39 2023
 administrador       1000           REA            Wed Jun 07 11:30:41 2023
 administrador       1000           REA            Wed Jun 07 11:30:47 2023
+administrador       700            LOGIN          Wed Jun 07 11:37:03 2023
+administrador       1100           INS            Wed Jun 07 11:37:06 2023
+administrador       1100           REA            Wed Jun 07 11:37:17 2023
+prueba              700            LOGIN          Wed Jun 07 11:37:26 2023
+prueba              700            NO LOGIN       Wed Jun 07 11:38:57 2023
+admi                700            NO LOGIN       Wed Jun 07 11:39:04 2023
+prubea              700            NO LOGIN       Wed Jun 07 11:39:11 2023
+administrador       700            LOGIN          Wed Jun 07 11:39:30 2023
+administrador       1000           REA            Wed Jun 07 11:39:33 2023
+administrador       900            INS            Wed Jun 07 11:39:47 2023
