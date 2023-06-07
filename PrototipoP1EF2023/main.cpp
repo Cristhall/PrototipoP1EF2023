@@ -4,13 +4,13 @@
 //Curso: Programación 1
 
 #include <iostream>
-#include "Login.h"
+#include "Usuario.h"
 
 using namespace std;
 
 int main()
 {
-    Login inicio;
+    Usuario inicio;
     inicio.iniciarSesion();
     int numero;
     do
@@ -29,7 +29,7 @@ int main()
         switch(numero)
         {
             case 1:
-                IngresoUsuario.iniciarSesion();
+                inicio.iniciarSesion();
                 break;
             case 2:
                 break;

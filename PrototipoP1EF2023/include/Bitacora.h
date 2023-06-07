@@ -5,6 +5,7 @@
 using namespace std;
 
 class Bitacora
+{
     public:
         void ingresoBitacora(string nombre, string aplicacion, string accion);
         void visualizarBitacora(string n);
